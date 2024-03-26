@@ -99,13 +99,27 @@ nav{
     margin-top: 140px;
     font-size: 50px;
 }
-/* .mainicons{
-    font-size: 20px !important;
-} */
+#border{
+    border: 20px solid #c0955a !important;
+}
+.sertex{
+    color: #c0955a;
+    padding: 50px;
+}
 /* Extra large devices (large desktops) */
 @media only screen and (min-width: 1200px) {
     .hiaa{
         font-size: 50px;
+    }
+    .borderimg{
+        position: relative;
+        bottom: 40px;
+        left: 50px;
+    }
+    .sertex{
+        color: #c0955a;
+        padding-top: 150px ;
+        padding-left: 50px;
     }
 }
   
@@ -114,12 +128,32 @@ nav{
     .hiaa{
         font-size: 47px;
     }
+    .borderimg{
+        position: relative;
+        bottom: 40px;
+        left: 50px;
+    }
+    .sertex{
+        color: #c0955a;
+        padding-top: 150px ;
+        padding-left: 50px;
+    }
 }
   
 /* Medium devices (desktops) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     .hiaa{
         font-size: 40px;
+    }
+    .borderimg{
+        position: relative;
+        bottom: 40px;
+        left: 50px;
+    }
+    .sertex{
+        color: #c0955a;
+        padding-top: 150px ;
+        padding-left: 50px;
     }
 }
 /* Small devices (tablets) */
