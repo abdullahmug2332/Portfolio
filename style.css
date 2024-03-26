@@ -101,6 +101,7 @@ nav{
 }
 #border{
     border: 20px solid #c0955a !important;
+    margin-left: 10px;
 }
 .sertex{
     color: #c0955a;
