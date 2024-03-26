@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    width: 100vw;
 }
 .bfont{
     font-family: "Dancing Script", cursive;
@@ -111,7 +112,7 @@ nav{
     padding: 15px;
 }
 .services{
-    width: 100%;
+    width: 105%;
     padding-left: 15px;
     background-color: #f3f3f3;
     padding-top: 30px;
@@ -178,6 +179,15 @@ nav{
     height: 48px;
     font-size: 14px;
 }
+footer{
+    background-color:#F7F7F7 ;
+    color: #999999;
+}
+.cp{
+    position: relative;
+    top: 10px;
+}
+
 /* Extra large devices (large desktops) */
 @media only screen and (min-width: 1200px) {
     .hiaa{
@@ -241,6 +251,9 @@ nav{
     .sericon{
         margin-left: 5px;
     }
+    .container{
+        font-size: 10px;
+    }
 }
     
 /* Extra small devices (phones) */
@@ -255,6 +268,9 @@ nav{
     }
     .sericon{
         margin-left: 2px;
+    }
+    .container{
+        font-size: 10px;
     }
 }
 
