@@ -74,7 +74,8 @@ nav{
     background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     color: white;
-    border-radius: 15px;
+    border-radius: 12px;
+
 }
 #insta:hover{
     background: -moz-linear-gradient(45deg, #e7a763 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
@@ -112,6 +113,8 @@ nav{
 .services{
     width: 100%;
     padding-left: 15px;
+    background-color: #f3f3f3;
+    padding-top: 30px;
 }
 .fa-html5{
     color: #F4470B;
@@ -160,6 +163,20 @@ nav{
 }
 .pot{
     font-weight: 700;
+}
+.out{
+    background-color: #f3f3f3;
+    padding-top: 30px;
+}
+.btn{
+    background-color: #c0955a;
+}
+.btn:hover{
+    background-color: #be8432 !important;
+}
+.inp{
+    height: 48px;
+    font-size: 14px;
 }
 /* Extra large devices (large desktops) */
 @media only screen and (min-width: 1200px) {
