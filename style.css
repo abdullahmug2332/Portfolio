@@ -111,6 +111,21 @@ nav{
     width: 100%;
     padding-left: 15px;
 }
+.fa-html5{
+    color: #F4470B;
+}
+.fa-css3-alt{
+    color: #3661E4;
+}
+.fa-js-square{
+    color: #F7CF00;
+}
+.fa-bootstrap{
+    color: #7910F2;
+}
+.fa-react{
+    color: #5ED3F3;
+}
 /* Extra large devices (large desktops) */
 @media only screen and (min-width: 1200px) {
     .hiaa{
