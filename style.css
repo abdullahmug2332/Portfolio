@@ -125,12 +125,21 @@ nav{
     .hiaa{
         font-size: 35px;
     }
+    .maincon{
+        text-align: center;
+        align-items:  center;
+    }
 }
     
 /* Extra small devices (phones) */
 @media only screen and (max-width: 575.98px) {
     .hiaa{
-        font-size: 33px;
+        font-size: 30px;
+    }
+    .maincon{
+        text-align: center;
+        align-items:  center;
+
     }
     
 }
