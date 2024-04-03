@@ -48,12 +48,15 @@ nav {
     background-size: cover;
     background-repeat: center;
     background-position: center;
+    background-attachment: fixed;
+
 }
 
 @media screen and (max-width: 431px) {
     #mainposter {
         background-image: linear-gradient(to right, rgba(10, 10, 10, 0.294) 100%, rgba(0, 0, 255, 0) 100%), url(images/img9.jpg);
         background-position: center;
+        background-attachment: fixed;
     }
 }
 
@@ -61,6 +64,8 @@ nav {
     #mainposter {
         background-image: linear-gradient(to right, rgba(3, 3, 3, 0.218) 100%, rgba(0, 0, 255, 0) 100%), url(images/img9.jpg);
         background-position: center;
+        background-attachment: fixed;
+
     }
 }
 
